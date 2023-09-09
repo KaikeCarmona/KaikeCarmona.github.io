@@ -1,6 +1,7 @@
- 
+import './about.css'
+
 export default function AboutLanding(){
     return(
-        <div>About</div>
+        <div className="about">About</div>
     )
 }
