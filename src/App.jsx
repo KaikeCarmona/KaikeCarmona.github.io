@@ -10,7 +10,7 @@ function App() {
   return (
     <>
     <HomeLanding/>
- 
+
     <AboutLanding/>
     <ProjectsLanding/>
     <Skills/>
