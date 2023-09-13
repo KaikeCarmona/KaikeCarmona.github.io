@@ -1,8 +1,10 @@
 import "./Home.css";
 
-export default function HomeLanding() {
-  const teste = "funcionou";
+import { Link } from "react-scroll";
 
+
+export default function HomeLanding() {
+ 
   return (
     <div>
       <header>
@@ -16,7 +18,9 @@ export default function HomeLanding() {
         </h1>
         <p>Desenvolvedor Front-End</p>
         <div className="button-content">
-          <button class="btn draw-border">Draw Border</button>
+          <Link activeClass="active" to="about" spy={true} smooth={true} offset={5} duration={500} className="scroll" >
+            Draw Border
+          </Link>
         </div>
       </div>
     </div>

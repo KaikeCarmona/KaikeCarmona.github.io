@@ -1,8 +1,10 @@
 import "./about.css";
 
+ 
+
 export default function AboutLanding() {
   return (
-    <div className="about">
+    <div id="about">
          <div className="bloc1">
           <div className="bloc1-1"></div>
           <div className="bloc1-2">

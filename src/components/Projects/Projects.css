@@ -1,31 +1,28 @@
 .projects {
   width: 90%;
-  margin: 10rem auto;
+  margin: 4rem auto ;
   display: flex;
   flex-direction: column;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 10rem;
- }
+  gap: 8rem;
+}
 
 .projects .section-title {
   width: 8.5rem;
   height: 2.3rem;
   border-radius: 1.2rem;
   background-color: #040251;
-   
- display: flex;
- align-items: center;
- justify-content: center;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.projects .section-title p{
-    color: #fff;
-    font-weight: 500;
-
+.projects .section-title p {
+  color: #fff;
+  font-weight: 500;
 }
-
- 
 
 .card-content {
   display: flex;
@@ -33,14 +30,12 @@
   gap: 10rem;
   flex-wrap: wrap;
   align-items: center;
-    justify-content:center;
+  justify-content: center;
 }
 
 .projects section {
   max-width: 23rem;
   min-width: none;
-  /* max-height: 30rem;
-  min-height: 30rem; */
   background-color: #030229;
   border-radius: 1.2rem;
   overflow: hidden;
@@ -78,7 +73,6 @@
 .projects section article p {
   text-align: start;
   font-size: 1rem;
- 
 }
 
 .projects section footer {
