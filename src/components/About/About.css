@@ -19,8 +19,8 @@
 }
 
 .bloc1-1 {
-  width: 16rem;
-  height: 16rem;
+  width: 17rem;
+  height: 17rem;
   border-radius: 100%;
   position: relative;
   overflow: hidden;
@@ -31,7 +31,7 @@
 
 .bloc1-1::before {
   content: "";
-  background-image: conic-gradient(#0803f8 50deg, transparent 20deg);
+  background-image: conic-gradient(#0803f8 60deg, transparent 20deg);
   width: 110%;
   height: 100%;
   position: absolute;
@@ -40,9 +40,11 @@
 
 .bloc1-1::after {
   content: "";
-  width: 98%;
-  height: 98%;
+  width: 97%;
+  height: 97%;
   background-color: #101010;
+  background-image: url("eu.png");
+  background-size: cover;
   position: absolute;
   border-radius: 100%;
 }

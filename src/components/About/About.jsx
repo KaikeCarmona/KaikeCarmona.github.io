@@ -6,7 +6,9 @@ export default function AboutLanding() {
   return (
     <div id="about">
          <div className="bloc1">
-          <div className="bloc1-1"></div>
+          <div className="bloc1-1">
+            
+          </div>
           <div className="bloc1-2">
             <span>
               <p>🧐 Sobre mim</p>
