@@ -9,7 +9,7 @@ export default function SkillsLanding() {
         <p>🖥️ Skills</p>
       </span>
       <div className="SkillsCards">
-        <h1 className="Section-title">Tecnologias e Habilidades</h1>
+        {/* <h1 className="Section-title">Tecnologias e Habilidades</h1> */}
         <article>
           <Cards
             icon={<DesktopWindowsOutlinedIcon />}

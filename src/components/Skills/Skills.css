@@ -1,6 +1,7 @@
 .SkillsSection {
-  width: 90%;
-  margin: 4rem auto 14.7rem;
+  min-height: 100vh;
+  height: 100%;
+  padding: 4rem 4rem 0;
   color: #fff;
   display: flex;
   flex-direction: column;
@@ -93,4 +94,16 @@
 .Cards p {
   font-size: 1rem;
   margin: 1rem 0px 1.4rem 0px;
+}
+
+
+@media only screen and (max-width: 678px) {
+  .SkillsSection {
+    gap: 3rem;
+  }
+  .Section-title{
+    font-size: 1.5rem;
+  }
+  
+
 }

@@ -12,12 +12,12 @@ export default function ProjectsLanding() {
           projectDesc="Consumindo as API‘S: Riot, PokeAPI, ViaCEP, Awesome, ClimaTempo. Em todas utilizando bibliotecas css Styled-Components ou Sass"
         />
         <Card
-          projectTitle="API Pages"
-          projectDesc="Consumindo as API‘S: Riot, PokeAPI, ViaCEP, Awesome, ClimaTempo. Em todas utilizando bibliotecas css Styled-Components ou Sass"
+          projectTitle="Crud Tematico"
+          projectDesc="Neste projeto eu criei um CRUD tematico, onde utilizo todos os verbos http: Get, post, Put, Delete."
         />
         <Card
-          projectTitle="API Pages"
-          projectDesc="Consumindo as API‘S: Riot, PokeAPI, ViaCEP, Awesome, ClimaTempo. Em todas utilizando bibliotecas css Styled-Components ou Sass"
+          projectTitle="Clones UI de grandes empresas"
+          projectDesc="Projeto onde clono a interface UI de empresas como: Netflix, Amazon, GitHub..."
         />
       </div>
     </div>
@@ -27,6 +27,7 @@ export default function ProjectsLanding() {
 export function Card(props) {
   return (
     <section>
+      <a href="" style={{textDecoration: "none", borderRadius:"1.2rem"}}>
       <header>
         <span style={{ backgroundColor: "#4200FF" }}></span>
         <span style={{ backgroundColor: "#FF0000" }}></span>
@@ -39,6 +40,8 @@ export function Card(props) {
       <footer>
         <span></span>
       </footer>
+      </a>
+
     </section>
   );
 }

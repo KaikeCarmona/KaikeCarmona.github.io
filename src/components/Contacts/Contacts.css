@@ -1,12 +1,12 @@
 .contacts {
-  width: 90%;
-  margin: 10rem auto;
-  /* height: 60vh; */
+  min-height: 70vh;
+  height: 70%;
+  padding: 1rem 4rem;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   position: relative;
-  /* align-items: center;
-    justify-content: center; */
+  /* align-items: center; */
   color: #fff;
   gap: 8rem;
 }
@@ -37,6 +37,10 @@
 
 .contacts article {
   color: #fff;
+}
+
+.contacts article h1{
+  font-size: 2rem;
 }
 
 .contact-content .cards-section {
@@ -101,4 +105,16 @@
 .card-contact a:focus {
   background-size: 0 0.1em, 100% 0.1em;
 }
- 
+
+
+@media only screen and (max-width: 678px) {
+  .contact-content .cards-section  {
+    gap: 2rem;
+  }
+  .contacts article h1{
+    font-size: 1rem;
+ }
+  
+
+}
+
