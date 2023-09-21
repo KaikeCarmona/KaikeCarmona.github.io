@@ -13,11 +13,11 @@ export default function ProjectsLanding() {
         />
         <Card
           projectTitle="CRUD "
-          projectDesc="Neste projeto eu criei um CRUD tematico, onde utilizo todos os verbos http: Get, post, Put, Delete."
+          projectDesc="Neste projeto, criei um CRUD temático no qual utilizo todos os verbos HTTP: GET, POST, PUT e DELETE."
         />
         <Card
           projectTitle="Clone UI"
-          projectDesc="Projeto onde clono a interface UI de empresas como: Netflix, Amazon, GitHub e nike,"
+          projectDesc="Projeto no qual clono a interface de empresas como Netflix, Amazon, GitHub e Nike."
         />
       </div>
     </div>
