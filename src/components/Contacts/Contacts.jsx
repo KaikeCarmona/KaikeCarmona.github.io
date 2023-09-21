@@ -10,23 +10,27 @@ export default function ContactLanding() {
         <p>🤝 Contatos</p>
       </span>
       <div className="contact-content">
-        <article>
+        {/* <article>
           <h1>Entre em contato por aqui !</h1>
-        </article>
+        </article> */}
         <div className="cards-section">
           <div className="card-contact">
             <div>
               <EmailOutlinedIcon sx={{ fontSize: 35 }} />
             </div>
 
-            <a href="mailto:kkaike371@gmail.com;">Email</a>
+            <a href="mailto:kkaike371@gmail.com;">
+              <p>Email</p>
+            </a>
           </div>
           <div className="card-contact">
             <div>
               <GitHubIcon className="icon" sx={{ fontSize: 35 }} />
             </div>
 
-            <a href="https://github.com/KaikeCarmona">GitHub </a>
+            <a href="https://github.com/KaikeCarmona">
+              <p>GitHub</p>
+            </a>
           </div>
           <div className="card-contact">
             <div>
@@ -34,7 +38,7 @@ export default function ContactLanding() {
             </div>
 
             <a href="https://www.linkedin.com/in/kaike-carmona-76a05b23a/">
-              Linkedin
+              <p>Linkedin</p>
             </a>
           </div>
         </div>

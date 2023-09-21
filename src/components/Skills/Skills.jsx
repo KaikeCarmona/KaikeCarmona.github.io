@@ -19,7 +19,7 @@ export default function SkillsLanding() {
           <Cards
             icon={<StorageOutlinedIcon />}
             type="Back-End"
-            description="No lado do servidor eu possuo conhecimento em node.js, juntamente com o frameWork express. E habilidades com banco de dados MySql "
+            description="No lado do servidor eu possuo conhecimento em node.js, juntamente com o express. E habilidades com banco de dados MySql "
           />
         </article>
       </div>
