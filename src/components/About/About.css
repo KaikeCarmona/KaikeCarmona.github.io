@@ -17,9 +17,7 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 5rem;
-  /* margin-bottom: 2rem; */
-  
+  gap: 5rem;  
 }
 
 .bloc1-1 {
@@ -106,14 +104,12 @@
 }
  
 .bloc2 section{
-  /* border: 1px solid #03a9a9; */
   width: 100%;
   display: flex;
   flex-direction: column;
 }
 
 .forms{
-  /* border: 1px solid #03a9a9; */
   display: flex;
    justify-content: center;
   align-items: center;
