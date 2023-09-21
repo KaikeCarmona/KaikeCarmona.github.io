@@ -17,9 +17,7 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 5rem;
-  /* margin-bottom: 2rem; */
-  
+  gap: 5rem;  
 }
 
 .bloc1-1 {
@@ -113,7 +111,6 @@
 }
 
 .forms{
-  /* border: 1px solid #03a9a9; */
   display: flex;
    justify-content: center;
   align-items: center;
@@ -150,7 +147,6 @@
 
 .triangle {
   width: 0;
-  /* height: 0.1rem; */
   border-color: transparent transparent transparent #040251;
   border-style: solid;
   border-width:  1rem;
@@ -196,7 +192,6 @@
     gap: 10px;
     min-height: 7.5rem ;
  
-    /* padding: 0 3.5rem 3.5rem; */
   }
   .text p{
     width: 100%;
@@ -204,8 +199,6 @@
 
   }
   .forms{
-    /* border: 1px solid #03a9a9; */
-  
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -283,7 +276,6 @@
     gap: 10px;
     min-height: 7.5rem ;
  
-    /* padding: 0 3.5rem 3.5rem; */
   }
   .text p{
     width: 100%;
@@ -291,7 +283,6 @@
 
   }
   .forms{
-    /* border: 1px solid #03a9a9; */
     display: flex;
     flex-direction: column;
     justify-content: center;
