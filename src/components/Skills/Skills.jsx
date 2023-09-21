@@ -9,17 +9,16 @@ export default function SkillsLanding() {
         <p>🖥️ Skills</p>
       </span>
       <div className="SkillsCards">
-        {/* <h1 className="Section-title">Tecnologias e Habilidades</h1> */}
         <article>
           <Cards
             icon={<DesktopWindowsOutlinedIcon />}
             type="Front-End"
-            description="Desenvolvo sites Responsivos utilizando tecnologias que giram em torno de React e Bootstrap, utilizando na maioria das vezes a biblioteca Styled Components"
+            description="Desenvolvo sites responsivos utilizando tecnologias centradas em React e Bootstrap, com ênfase na utilização da biblioteca Styled Components na maioria dos casos."
           />
           <Cards
             icon={<StorageOutlinedIcon />}
             type="Back-End"
-            description="No lado do servidor eu possuo conhecimento em node.js, juntamente com o express. E habilidades com banco de dados MySql "
+            description="No lado do servidor, possuo conhecimento em Node.js, juntamente com o Express, além de habilidades em banco de dados MySQL."
           />
         </article>
       </div>
