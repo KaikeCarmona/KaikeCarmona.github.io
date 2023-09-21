@@ -9,7 +9,7 @@ export default function HomeLanding() {
   var speed = 100; /* The speed/duration of the effect in milliseconds */
 
   function typeWriter() {
-    if (i < 30) {
+    if (i < txt.length) {
       document.getElementById("demo").innerHTML += txt.charAt(i);
       i++;
       setTimeout(typeWriter, speed);
