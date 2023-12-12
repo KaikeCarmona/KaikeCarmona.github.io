@@ -12,8 +12,8 @@ export default function ProjectsLanding() {
           projectDesc="Consumindo as API‘S: Riot, PokeAPI, ViaCEP, ClimaTempo. Utilizando Styled-Components ou Sass."
         />
         <Card
-          projectTitle="CRUD "
-          projectDesc="Neste projeto, criei um CRUD temático no qual utilizo todos os verbos HTTP: GET, POST, PUT e DELETE."
+          projectTitle="Sistema de gerenciamento"
+          projectDesc="Sistema de gerenciamento de uma livraria, feito em java e salvando os dados em um TXT local, sem banco de dados."
         />
         <Card
           projectTitle="Clone UI"
