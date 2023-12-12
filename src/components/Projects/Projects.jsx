@@ -14,6 +14,8 @@ export default function ProjectsLanding() {
         <Card
           projectTitle="Sistema de gerenciamento"
           projectDesc="Sistema de gerenciamento de uma livraria, feito em java e salvando os dados em um TXT local, sem banco de dados."
+          projectLink="https://github.com/KaikeCarmona/Livraria_PI_JAVA"
+
         />
         <Card
           projectTitle="Clone UI"
@@ -37,7 +39,7 @@ export function Card(props) {
         <p>{props.projectDesc}</p>
       </article>
       <a
-        href=""
+        href={props.projectLink}
         style={{
           textDecoration: "none",
           borderRadius: "1.2rem",
