@@ -46,6 +46,7 @@
   height: 97%;
   background-color: #101010;
   background-image: url("eu.png");
+  background-position: center;
   background-size: cover;
   position: absolute;
   border-radius: 100%;
